@@ -1,0 +1,131 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    color: white;
+    background-color: #2c2c2c;
+    width: 100%;
+}
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+
+    position: absolute;
+    padding: 2%;
+    background-color: #2c2c2c;
+    color: white;
+    width: 92%;
+}
+
+h1 {
+    font-size: 5vh;
+    text-align: center;
+}
+h3 {
+    font-size: 2vh;
+}
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000;
+    width: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    color: white;
+    font-size: 2vh;
+    text-align: left;
+    align-items: center;
+    margin:1vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+nav ul a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+form {
+    position: relative;
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    height: 3.5vh;
+    padding: 0.5vh;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 3vh;
+    color:#000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background: linear-gradient(to bottom, #333333, #000000);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+.savebutton {
+    background: linear-gradient(to bottom, #309900, #000000);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.deletebutton {
+    background: linear-gradient(to bottom, #990000, #000000);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.newRosterButton {
+    background: linear-gradient(to bottom, #000f99, #000000);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.choosers {
+    margin-top: 3vh;
+}
+.rosterSelect {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rosterizer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+ 
+  
+  <body>
+  <nav> 
+        <ul>Rosters</ul>
+        <ul><a href="chooser.html">Chooser</a></ul>
+        <ul><a href="grouper.html">Grouper </a></ul>
+  </nav>  
+  <main>
+  <h1> Rosters </h1>  
+    <form id="userDiv" autocomplete="off">
+        <label for="rosterName" >Roster Name:</label>
+        <input type="text" id="rosterName"> 
+
+        <br>
+        <div id="inputContainer">
+        <label for="name1">Add Users:</label>
+        <br>
+        </div>
+        <button id="addAnother">Add Name</button>
+        <button type="submit" id="rosterSubmit" class="savebutton">Save</button>
+        <button class="newRosterButton" id="startNewRoster">Start New Roster</button>
+        <button id="delete" class="deletebutton">Delete This Roster</button>
+
+    </form>
+  <div class="savedRosters" id="savedRosters">
+    <label for="savedRosters">Saved Rosters:</label> <br>
+  </div> 
+  </main> 
+
+  </body>
+  
+</html>
+<script src="rosters.js"></script>
