@@ -90,3 +90,9 @@ eliminator.addEventListener("click", (event) => {
     }
 })
 
+if (localStorage.getItem("currentRoster")) {
+        var chooserRoster = document.getElementById("chooserRoster")
+        var currentRoster = JSON.parse(localStorage.getItem("currentRoster"))
+        var thisRoster = Object.keys(currentRoster)[0]
+        chooserRoster.innerHTML = thisRoster
+    }

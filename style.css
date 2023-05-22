@@ -88,10 +88,11 @@ button {
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1.5vh;
     cursor: pointer;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    width: 20vh;
   }
 
 .savebutton {
@@ -100,7 +101,6 @@ button {
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 5px;
-    font-size: 16px;
     cursor: pointer;
 }
 .deletebutton {
@@ -109,7 +109,6 @@ button {
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 5px;
-    font-size: 16px;
     cursor: pointer;
 }
 .newRosterButton {
@@ -118,11 +117,17 @@ button {
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 5px;
-    font-size: 16px;
     cursor: pointer;
 }
 .choosers {
     margin-top: 3vh;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .rosterSelect {
     width: 100%;
@@ -134,17 +139,16 @@ button {
 }
 
 .nameDisplay {
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 155%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: "Segoe Script", cursive;
-    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7vh;
     color: rgba(255, 255, 255, 0.9);
     text-align: center;
-    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0.5), 0 0 40px rgba(255, 215, 0, 0.5), 0 0 50px rgba(255, 215, 0, 0.5), 0 0 60px rgba(255, 215, 0, 0.5), 0 0 70px rgba(255, 215, 0, 0.5);
-    background-image: linear-gradient(to bottom, rgba(255, 215, 0, 0.3), rgba(255, 215, 0, 0.5), rgba(255, 215, 0, 0.7));
+    text-shadow: 0 0 10px rgba(162, 0, 255, 0.5), 0 0 20px rgba(162, 0, 255, 0.5), 0 0 30px rgba(162, 0, 255, 0.5), 0 0 40px rgba(162, 0, 255, 0.5), 0 0 50px rgba(162, 0, 255, 0.5), 0 0 60px rgba(162, 0, 255, 0.5), 0 0 70px rgba(162, 0, 255, 0.5);
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    justify-content: first baseline;
   }
